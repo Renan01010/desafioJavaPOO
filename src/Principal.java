@@ -1,7 +1,7 @@
 import br.com.alura.desafio.POO.ContaBancaria;
 import br.com.alura.desafio.POO.IdadePessoa;
 import br.com.alura.desafio.POO.Pessoa;
-import br.com.alura.desafio.POO.Produto;
+import br.com.alura.desafio.POO.Produto1;
 
 import java.util.ArrayList;
 
@@ -24,7 +24,7 @@ public class Principal {
         System.out.println("Idade: " + pessoa.getIdade());
         System.out.println(pessoa.verificarIdade());
 
-        Produto produto = new Produto();
+        Produto1 produto = new Produto1();
         produto.setNome("Leite");
         produto.setPreco(10.90);
 
@@ -46,7 +46,8 @@ public class Principal {
         pessoas.add(pessoa3);
 
         System.out.println(pessoas.size());
-        System.out.println(pessoas.get(0));
+        System.out.println(pessoas.get(0
+        ));
         System.out.println(pessoas);
 
     }

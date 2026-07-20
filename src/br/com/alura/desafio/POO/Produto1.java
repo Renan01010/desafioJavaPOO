@@ -1,6 +1,6 @@
 package br.com.alura.desafio.POO;
 
-public class Produto {
+public class Produto1 {
     private String nome;
     private double preco;
 
