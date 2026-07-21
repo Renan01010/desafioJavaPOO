@@ -16,5 +16,12 @@ public class Test {
         System.out.println(listaProdutos.size());
         System.out.println(listaProdutos.get(2));
 
+        for (Produto item : listaProdutos) {
+            System.out.println(item);
+        }
+
+        Cachorro cao = new Cachorro("Lulu", 10, 30);
+        Animal animal = (Animal) cao;
+
     }
 }
